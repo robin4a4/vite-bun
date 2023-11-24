@@ -1,5 +1,5 @@
 import { renderToReadableStream as renderToRSCStream } from "react-server-dom-webpack/server.edge";
-import { App } from "./app";
+import { App } from "./app/App";
 
 Bun.serve({
   port: 8080,
